@@ -1,0 +1,22 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "outDir": "../dist/server",
+        "jsx": "preserve",
+        "allowJs": true,
+        "skipLibCheck": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+
+}

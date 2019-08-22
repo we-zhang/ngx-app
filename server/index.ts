@@ -1,6 +1,6 @@
 import {App} from './App';
 
-let PORT: string = <string> process.env.WISTUDIO_SERVER_HTTP_PORT || "7747";
+let PORT: string = <string> process.env.SERVER_HTTP_PORT || "7789";
 
 
 
